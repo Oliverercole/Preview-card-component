@@ -1,0 +1,109 @@
+body {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 57.6875rem;
+  height: 31.4375rem;
+  border-radius: 8px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container .desc1 {
+  padding: 3.0625rem;
+  background-color: #e38826;
+}
+
+.container .desc2 {
+  padding: 3.0625rem;
+  background-color: #006970;
+}
+
+.container .desc3 {
+  padding: 3.0625rem;
+  background-color: #004241;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: aliceblue;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  margin-bottom: 100px;
+}
+
+.button1 {
+  background-color: aliceblue;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #e38826;
+}
+
+.button1:hover {
+  opacity: 0.5;
+}
+
+.button2 {
+  background-color: aliceblue;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #006970;
+}
+
+.button2:hover {
+  opacity: 0.5;
+}
+
+.button3 {
+  background-color: aliceblue;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #004241;
+}
+
+.button3:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
